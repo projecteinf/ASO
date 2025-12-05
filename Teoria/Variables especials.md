@@ -1,5 +1,3 @@
-
-
 # Variables especials en Bash (I)
 
 ## Què són?
