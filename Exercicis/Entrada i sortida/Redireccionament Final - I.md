@@ -64,14 +64,14 @@ lrwx lerrors.txt -> errors.txt
 
     - 2a -> Path on es vol copiar el fitxer.  
 
-Exemple de fitxer
-
+Exemple de fitxer 
+Els noms/directoris del arxius a copiar no poden contenir espais
 ```
 "arxius.txt" "/tmp/"
 "arxius.txt" "/home/mboada/Documents/"
 "errors.txt" "/tmp/"
 "lerrors.txt" "/tmp/"
-"Horaris_25-26_DOCENTS (Provisionals v.3).pdf" "/home/mboada/Documents/"
+"Horaris_25-26_DOCENTS(Provisionals v.3).pdf" "/home/mboada/Documents/"
 ```
 
 * El script l'ha de poder executar un usuari regular (no root).  
