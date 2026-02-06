@@ -121,7 +121,7 @@ echo "Nombre d'IPs: ${#ips[@]}"
 
 ---
 
-# 5. Recorregut amb índex (admin real)
+# 5. Recorregut amb índex  
 
 `${!array[@]}` permet obtenir els índexs.
 Útil quan vols mostrar posició + valor.
@@ -166,7 +166,7 @@ do
   then
         TROBAT=1
   fi
-  I=$((I++))
+  I=$(( I+1 ))
 done
 
 if [ $TROBAT -eq 0 ]; then
